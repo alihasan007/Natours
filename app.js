@@ -10,7 +10,7 @@ const cookieParser = require('cookie-parser');
 const csp = require('express-csp');
 const compression = require('compression');
 
-const AppError = require('./utils/appError');
+const AppError = require('./utils/AppError');
 const globalErrorHandler = require('./controllers/errorController');
 const tourRouter = require('./routes/tourRoutes');
 const userRouter = require('./routes/userRoutes');

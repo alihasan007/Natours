@@ -1,7 +1,7 @@
 const Tour = require('./../models/tourModel');
 const catchAsync = require('./../utils/catchAsync');
 const factory = require('./handlerFactory');
-const AppError = require('./../utils/appError');
+const AppError = require('./../utils/AppError');
 const multer = require('multer');
 const sharp = require('sharp');
 const { promises } = require('nodemailer/lib/xoauth2');
