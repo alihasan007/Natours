@@ -1109,14 +1109,6 @@ body {
   clip-path: polygon(0 0, 100% 0%, 100% 83%, 0% 98%);
   height: 22rem;
 }
-.card__bookmark {
-  position: relative;
-}
-.card__bookmark .bookmark-icon {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
 
 .card__picture-overlay {
   position: absolute;
