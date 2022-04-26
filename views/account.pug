@@ -18,13 +18,13 @@ block content
           +navItem('#','Billing','credit-card')
 
         - if(user.role==='admin')
-        .admin-nav
-          h5.admin-nav__heading Admin
-          ul.side-nav
-            +navItem('#','Manage tours','map',true)
-            +navItem('#','Manage users','users')
-            +navItem('#','Manage reviews','star')
-            +navItem('#','Manage bookings','briefcase') 
+          .admin-nav
+            h5.admin-nav__heading Admin
+            ul.side-nav
+              +navItem('#','Manage tours','map')
+              +navItem('#','Manage users','users')
+              +navItem('#','Manage reviews','star')
+              +navItem('#','Manage bookings','briefcase') 
 
       .user-view__content
         .user-view__form-container
