@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Learning node,express and mongoDB",
   "main": "app.js",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
   "targets": {
     "main": false
   },
@@ -52,8 +53,6 @@
     "process": "^0.11.10"
   },
   "engines": {
-    "node":">=10.0.0"
+    "node": ">=10.0.0"
   }
-
-  }
-
+}
